@@ -400,6 +400,43 @@ Class can have variable, methods, class.
         @SuppressWarnings
         @SafeVarargs
 
+    
+    User-Defined Annotation:
+        Starting with the @.
+
+# Lambda Expressions : 
+    methods are written as an expression. Hence, named as the lambda expression.
+
+
+# Method Reference :
+    Method is given as the reference then it act similar to that method and give the similar property and return.
+
+
+# IO Streams:
+    Stream is the flow of data. IO stands for input/output.
+
+    class InputStream:
+        int read() : reading just on byte
+        int read(byte[] b) : read the collection of byte and depend on the size of the byte.
+        int read(byte[] b, int off, int len) : read in the collect of byte , can give the position to start and length of the byte.
+        int available() : how bytes of data available.
+        long skip(long n) : can be used to skip some byte.
+        void mark(int limit) : mark the visited byte
+        void reset() : reset the mark to the starting point.
+        boolean marksupported() : tell us if it is mark supported.
+        void close() : close if the task is done.
+
+
+        read, available and close are important
+
+
+    Class Output Stream:
+        void write(int b) : use to write the data.
+        void write(byte[] b) : can be used write all the byte together.
+        void write(byte[] b, int off, int len) : from which to start and of how much length.
+        void flush() : useful for forcing the data.
+        void close(): use to close the classes.
+
         
 
 
