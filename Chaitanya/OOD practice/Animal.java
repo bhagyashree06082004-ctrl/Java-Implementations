@@ -11,5 +11,8 @@ public abstract class Animal {
     public void sleep() {
         System.out.println(name + " is sleeping.");
     }
+    public void chirp() {
+        System.out.println(name + " is chirping.");
+    }
     public abstract void move();
 }
