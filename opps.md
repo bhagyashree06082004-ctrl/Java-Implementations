@@ -437,7 +437,56 @@ Class can have variable, methods, class.
         void flush() : useful for forcing the data.
         void close(): use to close the classes.
 
-        
+
+# Collection Framework:
+    
+    Limitation of the standard data structure:
+        fixed size -> ArrayList, LinkedList
+        Distinct Collection -> Set
+        Sorted Collection -> SortedSet
+        Insertion (manually need to shift the element. )
+        Delete (after deleting need to shift the element manually. )
+        Search (time complexity(O(n))) -> O(1) for collection.
+        Hashing (storing data in key value pair. )
+
+
+    Collection Framework
+        Iterable Interface:
+            Collection Interface:
+
+                List Interface (ordered collection):
+                    ArrayList
+                    LinkedList
+                    Vector <- Stack (Legacy Classes)
+                    
+                Set Interface (no duplicate allowed plus unordered):
+                    HashSet
+                    LinkedHashSet
+                    SortedSet Interface <- TreeSet
+                
+                Queue (FIFO -> first in first out):
+                    PriorityQueue
+                    Deque Interface <- ArrayDeque
+
+    Map Interface (key-value):
+        HashMap
+        LinkedHashMap
+        HashTable
+        SortedMap Interface <- TreeMap
+
+    java.util
+
+
+# Hashing Tech :
+
+    Data is stored in the Hash Table. Each cell is called as the bucket.
+
+    hash function help us to find where to save the value in the table.
+
+    It is implemented as the open addressing, chanining or the combination of the both.
+
+    
+
 
 
 
